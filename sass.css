@@ -1,0 +1,582 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.container .header {
+  width: 100%;
+  height: 100%;
+  background-color: #9a9a9a;
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .header .header-item {
+  width: 22%;
+  height: 42%;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  margin-left: 200px;
+}
+
+.container .header .header-item .hi-header {
+  width: 100%;
+  height: 60px;
+  padding-top: 10px;
+}
+
+.container .header .header-item .hi-header h4 {
+  color: red;
+}
+
+.container .header .header-item .hi-header h3 {
+  color: wheat;
+}
+
+.container .header .header-item .hi-body {
+  width: 100%;
+  height: auto;
+}
+
+.container .header .header-item .hi-body .hi-body-i {
+  width: 100%;
+  height: 40px;
+  border-bottom: 2px solid #9a9a9a;
+}
+
+.container .header .header-item .hi-body .hi-body-i input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.container .header .header-item .hi-button {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .header .header-item .hi-button button {
+  width: 80%;
+  height: 40px;
+  background-color: red;
+  color: white;
+  margin: 15px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .header .header-text {
+  width: 30%;
+  height: 42%;
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  font-size: 20px;
+  margin-left: 100px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .header-2 {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #9a9a9a;
+}
+
+.container .header-2 .h-2-img {
+  width: 40%;
+  height: 90%;
+}
+
+.container .header-2 .h-2-img img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 13px;
+}
+
+.container .header-2 .h-2-text {
+  width: 40%;
+  height: 90%;
+  color: white;
+  margin-left: -80px;
+  padding-top: 70px;
+}
+
+.container .header-2 .h-2-text h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.container .header-2 .h-2-text .h-2-assab {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0;
+}
+
+.container .header-2 .h-2-text .h-2-assab i {
+  padding: 15px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.container .header-2 .h-2-text .h-2-assab div {
+  width: 40px;
+  height: 2px;
+  background-color: black;
+}
+
+.container .header-2 .h-2-text h5 {
+  font-size: 18px;
+}
+
+.container .header-2 .h-2-text .h5 {
+  margin-top: 10px;
+}
+
+.container .build {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .build .img {
+  width: 50%;
+  height: 100%;
+}
+
+.container .build .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .build .text {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .build .text .text-item {
+  width: 65%;
+  height: 100%;
+  color: white;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .build .text .text-item h1 {
+  font-size: 60px;
+}
+
+.container .build .text .text-item h3 {
+  font-size: 25px;
+  margin-top: -50px;
+}
+
+.container .build .text .i1 {
+  width: 35%;
+  height: 100%;
+}
+
+.container .build .rotate {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background-color: black;
+  margin-top: -400px;
+}
+
+.container .img-block {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .img-block .img-box {
+  width: 33.3333333%;
+  height: 50%;
+}
+
+.container .img-block .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .chain {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(56, 54, 59, 0.603)), to(rgba(83, 82, 85, 0.582))), url(./img-box/Dedicated-team.jpeg);
+  background-image: linear-gradient(180deg, rgba(56, 54, 59, 0.603), rgba(83, 82, 85, 0.582)), url(./img-box/Dedicated-team.jpeg);
+}
+
+.container .chain .block-box {
+  width: 70%;
+  height: 450px;
+}
+
+.container .chain .block-box .text-white-box {
+  width: 100%;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .chain .block-box .text-white-box .box-text {
+  text-align: center;
+}
+
+.container .chain .block-box .white-box {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .chain .block-box .white-box .box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.container .chain .block-box .span-box {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .chain .block-box .span-box .span {
+  width: 2px;
+  height: 190px;
+  background-color: gray;
+}
+
+.container .chain .block-box .span-box .rot-left {
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+.container .chain .block-box .span-box .rot-right {
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+}
+
+.container .chain .block-box .red-box {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .chain .block-box .red-box .box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.container .chain .block-box .red-box .ml {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+.container .chain .block-box .red-box .mb {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.container .chain .block-box .text-red-box {
+  width: 110%;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+}
+
+.container .chain .block-box .text-red-box .box-text {
+  text-align: center;
+}
+
+.container .deer-block {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .deer-block .text-deer {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .deer-block .text-deer .deer-item {
+  width: 40%;
+  height: 100%;
+}
+
+.container .deer-block .text-deer .deer-item-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60%;
+  height: 100%;
+  font-size: x-large;
+  padding: 30px;
+}
+
+.container .deer-block .text-deer .deer-item-2 h1 {
+  -webkit-transform: translateY(35px);
+          transform: translateY(35px);
+}
+
+.container .deer-block .text-deer .deer-item-2 h2 {
+  font-size: 26px;
+  color: gray;
+  margin-top: 50px;
+}
+
+.container .deer-block .img-deer {
+  width: 60%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .deer-block .img-deer img {
+  width: 80%;
+  height: 75%;
+  margin-left: 70px;
+}
+
+.container .text-block {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .text-block .header-box {
+  width: 100%;
+  height: 70px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .text-block .text-body {
+  width: 70%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .text-block .text-body .box {
+  width: 30%;
+  height: 100%;
+}
+
+.container .text-block .text-body .box:hover {
+  -webkit-box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.2);
+}
+
+.container .text-block .text-body .box .card-text-body {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container .text-block .text-body .box .card-text-body h4 {
+  margin-top: 10px;
+}
+
+.container .text-block .text-body .box .card-text-body button {
+  width: 60%;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #9a9a9a;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.container .text-block .text-body .box .circle {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .text-block .text-body .box .circle .circle-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px 0;
+  text-align: center;
+  background-color: white;
+}
+
+.container .text-block .text-body .box .circle .circle-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=sass.css.map */
